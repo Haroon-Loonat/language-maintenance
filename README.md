@@ -4,14 +4,16 @@ Small coding maintenance tasks.
 
 Languages:
 
--Java
+  -Java
 
--C++
+  -C++
 
--ASM
+  -ASM
 
-Each folder contains:
+Structure:
 
-README -> Short description
+-Each folder is a different task, where each contains:
 
-Source file -> solution
+  -README -> Short description
+
+  -Source file -> solution
