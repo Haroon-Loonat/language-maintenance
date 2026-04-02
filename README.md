@@ -12,7 +12,9 @@ Languages:
 
 Structure:
 
--Each folder is a different task, where each contains:
+-Separated by language folders
+
+-Inside each language folder is a different task, where each contains:
 
 -README -> Short description
 
