@@ -53,12 +53,12 @@ _start:
 
     ; Compare 
     MOV ebx, number1
-    CMP ebx, number2 ; compare number1 and number2 (eax compared to number2)
+    CMP ebx, number2 ; compare number1 and number2 (ebx compared to number2)
 
-    JE IsEqual ; jump if number 1 is equal to number 2 (i.e., eax == number2)
-    JG OutputLarger ; jump if number 1 is greater than number 2 (i.e., eax > number2)
+    JE IsEqual ; jump if number 1 is equal to number 2 (i.e., ebx == number2)
+    JG OutputLarger ; jump if number 1 is greater than number 2 (i.e., ebx > number2)
 
-    ; if eax (number 1) is smaller, we set eax to number 2
+    ; if ebx (number 1) is smaller, we set ebx to number 2
     MOV ebx, number2
     JMP OutputLarger ; jump to output the larger number (number 2)
 
